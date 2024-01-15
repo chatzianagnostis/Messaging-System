@@ -3,6 +3,9 @@
 ## Introduction
 This project implements a simple messaging system with a server and client in Python. The system allows users to create accounts, send messages, and manage their inbox.
 
+### Prerequisites
+- Python 3
+  
 ## Files
 - `server.py`: Contains the implementation of the messaging server.
 - `client.py`: Implements a client to interact with the messaging server.
@@ -19,15 +22,20 @@ Implements the messaging server, allowing account creation, message sending, and
 A client interface to interact with the messaging server. Provides methods to create accounts, send messages, and manage the inbox.
 
 ## Usage
-
+   
 ### Running the Server
-To run the server, use the following command:
+1. Open a terminal.
+2. Navigate to the directory containing `Server.py`.
+3. To run the server, use the following command:
 ```bash
 python server.py <port_number>
 ```
 Replace <port_number> with the desired port.
 
 ### Running the Server
+1. Open a new terminal.
+2. Navigate to the directory containing `Client.py`.
+3. Run the following commands
 - Create Account (Function ID: 1)
 ```bash
 python client.py <server_ip> <server_port> 1 <username>
